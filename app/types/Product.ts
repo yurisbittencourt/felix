@@ -4,5 +4,5 @@ type Product = {
   image: string
   price: number
   desc: string
-  sizes: []
+  sizes: string[]
 }
