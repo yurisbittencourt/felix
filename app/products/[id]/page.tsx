@@ -8,11 +8,8 @@ type PageProps = {
 export default function Page({ params }: PageProps) {
   const product = productData.find((p) => p.id == params.id)
   return (
-    <div className="w-full h-full">
-      <h1 className=" w-full text-center text-xl p-6 bg-gray-100">
-        {product!.name}
-      </h1>
-      <div className="flex w-full">
+    <div className="w-full h-full mt-from-nav">
+      <div className="flex w-full flex-col sm:flex-row">
         <div className="flex flex-col w-full">
           <Image src={product!.image} alt="product" width={800} height={800} />
         </div>
