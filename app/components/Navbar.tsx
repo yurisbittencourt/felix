@@ -20,7 +20,7 @@ export default function Component() {
       <button onClick={toggleDrawer} aria-controls="drawer-menu">
         {/* Menu Icon  */}
         <svg
-          className="w-6 h-6 text-black dark:text-white border-solid cursor-pointer"
+          className="w-6 h-6 border-solid cursor-pointer"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -43,7 +43,7 @@ export default function Component() {
 
       {/* Bag Icon */}
       <svg
-        className="w-6 h-6 text-black dark:text-white cursor-pointer"
+        className="w-6 h-6 cursor-pointer"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -66,7 +66,7 @@ export default function Component() {
       {/* Drawer Component */}
       <div
         id="drawer-menu"
-        className={`fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform bg-white w-80 dark:bg-gray-800 ${
+        className={`fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform ${
           isDrawerOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         tabIndex={-1}
@@ -76,7 +76,7 @@ export default function Component() {
           type="button"
           onClick={closeDrawer}
           aria-controls="drawer-menu"
-          className="bg-transparent rounded-lg text-sm w-5 h-5 md:w-8 :h-8 absolute top-4 start-4 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white"
+          className="bg-transparent rounded-lg text-sm w-5 h-5 md:w-8 :h-8 absolute top-4 start-4 flex items-center justify-center"
         >
           <svg
             className=" w-5 h-5 "
