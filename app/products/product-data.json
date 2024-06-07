@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Small Logo T-Shirt",
+    "image": "/assets/products/Tee-Felix01.png",
+    "price": 240,
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com Logo bordada abaixo da gola",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+
+  {
+    "id": 2,
+    "name": "Big Logo T-Shirt",
+    "image": "/assets/products/Tee-Felix02.png",
+    "price": 260,
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com Logo bordada no peito esquerdo",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+
+  {
+    "id": 3,
+    "name": "Felix T-Shirt",
+    "image": "/assets/products/Tee-Felix03.png",
+    "price": 230,
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com FELIX estampada no peito",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": 4,
+    "name": "Label T-Shirt",
+    "image": "/assets/products/Tee-Felix04.png",
+    "price": 240,
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com etiqueta bordada na manga esquerda",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  }
+]
