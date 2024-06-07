@@ -76,10 +76,10 @@ export default function Component() {
           type="button"
           onClick={closeDrawer}
           aria-controls="drawer-menu"
-          className="bg-transparent rounded-lg text-sm w-8 h-8 absolute top-6 start-4 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white"
+          className="bg-transparent rounded-lg text-sm w-5 h-5 md:w-8 :h-8 absolute top-4 start-4 flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white"
         >
           <svg
-            className="w-5 h-5 "
+            className=" w-5 h-5 "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
