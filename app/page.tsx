@@ -7,10 +7,11 @@ export default function Home() {
       <div className="relative flex flex-col justify-end items-center w-full h-full-page-minus-nav bg-black md:hidden">
         <video
           className="w-auto h-full object-cover"
-          src="/felix_video_compressed.mov"
+          src="/felix-video.mp4"
           autoPlay
           loop
           muted
+          playsInline
         ></video>
       </div>
       <FullPageSection imagePath="/assets/DSC07326.jpg">
