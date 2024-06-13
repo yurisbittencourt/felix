@@ -38,7 +38,7 @@ body {
   }
   @screen md {
     .h-full-page-minus-nav {
-      height: calc(100vh - 80px);
+      height: calc(100vh - 56px);
     }
   }
   .mt-from-nav {
@@ -46,7 +46,7 @@ body {
   }
   @screen md {
     .mt-from-nav {
-      margin-top: 80px;
+      margin-top: 56px;
     }
   }
 

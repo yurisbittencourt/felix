@@ -10,7 +10,7 @@ export default function FullPageSection({
   imagePath,
 }: FullPageSectionProps) {
   return (
-    <section className="relative flex flex-col justify-end items-center w-full h-full-page-minus-nav">
+    <section className="relative flex flex-col justify-end items-center w-full h-screen">
       <img
         src={imagePath}
         alt="fashion image"

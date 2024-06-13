@@ -2,9 +2,11 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import useScrollPosition from "../hooks/useScrollPosition"
 
 export default function Component() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  const isScrolled = useScrollPosition()
 
   const toggleDrawer = () => {
     setIsDrawerOpen((prev) => !prev)
@@ -15,12 +17,16 @@ export default function Component() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 z-50 w-full h-12 md:h-20 flex items-center justify-between p-4 bg-white">
+    <nav
+      className={`fixed top-0 left-0 z-50 w-full h-12 md:h-14 flex items-center justify-between p-4 ${
+        isScrolled ? "bg-transparent" : "bg-white"
+      }`}
+    >
       {/* Button to toggle the drawer */}
       <button onClick={toggleDrawer} aria-controls="drawer-menu">
         {/* Menu Icon  */}
         <svg
-          className="w-5 h-5 text-black border-solid cursor-pointer"
+          className="w-4 h-4 md:w-5 md:h-5 text-black border-solid cursor-pointer"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -37,13 +43,13 @@ export default function Component() {
           alt="Logo"
           width={993}
           height={101}
-          className="w-full h-3 md:h-5 object-scale-down"
+          className="w-full h-3 md:h-4 object-scale-down"
         />
       </Link>
 
       {/* Bag Icon */}
       <svg
-        className="w-5 h-5 text-black cursor-pointer"
+        className="w-4 h-4 md:w-5 md:h-5 text-black cursor-pointer"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -103,7 +109,12 @@ export default function Component() {
         </li>
         <li className="list-none mb-4">
           <Link href="/products">
-            <p onClick={closeDrawer}>Produtos</p>
+            <p onClick={closeDrawer}>Coleção</p>
+          </Link>
+        </li>
+        <li className="list-none mb-4">
+          <Link href="/under-measure">
+            <p onClick={closeDrawer}>Under Measure</p>
           </Link>
         </li>
       </div>

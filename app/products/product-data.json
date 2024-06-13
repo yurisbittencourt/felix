@@ -1,36 +1,97 @@
 [
   {
     "id": 1,
-    "name": "Small Logo T-Shirt",
-    "image": "/assets/products/Tee-Felix01.png",
+    "name": "Felix Tee",
+    "image": [
+      "/assets/products/felix-tee/6955.jpg",
+      "/assets/products/felix-tee/6964.jpg"
+    ],
     "price": 240,
-    "desc": "T-shirt modelo básico feito em malha 100% algodão com Logo bordada abaixo da gola",
-    "sizes": ["S", "M", "L", "XL", "XXL"]
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com 'FELIX' estampada no peito",
+    "sizes": ["P", "M", "G", "XG", "XGG"],
+    "type": "Estoque"
   },
-
   {
     "id": 2,
-    "name": "Big Logo T-Shirt",
-    "image": "/assets/products/Tee-Felix02.png",
-    "price": 260,
-    "desc": "T-shirt modelo básico feito em malha 100% algodão com Logo bordada no peito esquerdo",
-    "sizes": ["S", "M", "L", "XL", "XXL"]
+    "name": "Vestido Vermelho",
+    "image": [
+      "/assets/products/vestido-vermelho/7426.jpg",
+      "/assets/products/vestido-vermelho/0683.jpg",
+      "/assets/products/vestido-vermelho/7395.jpg"
+    ],
+    "price": 700,
+    "desc": "Vestido de ombro unico de poliamida",
+    "sizes": ["PP", "P", "M", "G"],
+    "type": "Encomenda"
   },
-
   {
     "id": 3,
-    "name": "Felix T-Shirt",
-    "image": "/assets/products/Tee-Felix03.png",
-    "price": 230,
-    "desc": "T-shirt modelo básico feito em malha 100% algodão com FELIX estampada no peito",
-    "sizes": ["S", "M", "L", "XL", "XXL"]
+    "name": "Calca Off",
+    "image": [
+      "/assets/products/calca-off/6998.jpg",
+      "/assets/products/calca-off/0315.jpg"
+    ],
+    "price": 580,
+    "desc": "Calca de alfaiataria Flare",
+    "sizes": ["40", "42", "44", "46"],
+    "type": "Encomenda"
   },
   {
     "id": 4,
-    "name": "Label T-Shirt",
-    "image": "/assets/products/Tee-Felix04.png",
+    "name": "Locked Tee",
+    "image": [
+      "/assets/products/locked-tee/7482.jpg",
+      "/assets/products/locked-tee/7432.jpg"
+    ],
+    "price": 300,
+    "desc": "Camiseta tradicional com Logo e frase bordada",
+    "sizes": ["P", "M", "G", "GG", "XGG"],
+    "type": "Estoque"
+  },
+  {
+    "id": 5,
+    "name": "Calca Preta",
+    "image": [
+      "/assets/products/calca-preta/0832.jpg",
+      "/assets/products/calca-preta/0171.jpg",
+      "/assets/products/calca-preta/0185.jpg"
+    ],
+    "price": 580,
+    "desc": "Calca de alfaiataria Flare",
+    "sizes": ["40", "42", "44", "46"],
+    "type": "Encomenda"
+  },
+  {
+    "id": 6,
+    "name": "Camisa Cetim Off",
+    "image": ["/assets/products/camisa-cetim-off/7591.jpg"],
+    "price": 570,
+    "desc": "Camisa de cetim de Poliester",
+    "sizes": ["P", "M", "G", "XG", "XGG"],
+    "type": "Encomenda"
+  },
+  {
+    "id": 7,
+    "name": "Camisa Cetim Preta",
+    "image": [
+      "/assets/products/camisa-cetim-preta/0795.jpg",
+      "/assets/products/camisa-cetim-preta/0387.jpg"
+    ],
+    "price": 570,
+    "desc": "Camisa de cetim de Poliester",
+    "sizes": ["P", "M", "G", "XG", "XGG"],
+    "type": "Encomenda"
+  },
+  {
+    "id": 8,
+    "name": "Big Logo Tee",
+    "image": [
+      "/assets/products/big-logo-tee/7616.jpg",
+      "/assets/products/big-logo-tee/7620.jpg"
+    ],
     "price": 240,
-    "desc": "T-shirt modelo básico feito em malha 100% algodão com etiqueta bordada na manga esquerda",
-    "sizes": ["S", "M", "L", "XL", "XXL"]
+    "desc": "T-shirt modelo básico feito em malha 100% algodão com Logo bordada abaixo da gola",
+    "sizes": ["P", "M", "G", "XG", "XGG"],
+    "type": "Estoque"
   }
 ]
